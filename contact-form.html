@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontaktformulär</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">DH<span>.</span></div>
+
+  <nav>
+    <a href="index.html">Hem</a>
+    <a href="projects.html">Projekt</a>
+    <a href="about.html">Om mig</a>
+    <a href="contact.html">Kontakt</a>
+  </nav>
+
+  <button id="themeToggle" aria-label="Toggle theme">
+  <span class="icon"></span>
+</button>
+<!-- HAMBURGER (VISAS BARA PÅ MOBIL VIA CSS) -->
+  <button class="burger" id="burger">☰</button>
+
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+
+  <!-- CLOSE BUTTON -->
+  <button class="close-menu" id="closeMenu">✕</button>
+
+  <a href="index.html">Hem</a>
+  <a href="projects.html">Projekt</a>
+  <a href="about.html">Om mig</a>
+  <a href="contact.html">Kontakt</a>
+
+</div>
+<section class="form-page">
+
+  <div class="form-container">
+
+    <h1>Kontaktformulär</h1>
+    <p>Fyll i formuläret så återkommer jag så snart som möjligt.</p>
+
+    <form id="contactForm" class="form">
+
+      <label>Namn</label>
+      <input type="text" id="name" placeholder="Ditt namn">
+
+      <label>Email</label>
+      <input type="email" id="email" placeholder="din@email.com">
+
+      <label>Meddelande</label>
+      <textarea id="message" placeholder="Skriv ditt meddelande..."></textarea>
+
+      <button type="submit" class="cta-btn">Skicka</button>
+
+      <p id="formMessage"></p>
+
+    </form>
+
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 Diana Haniyeva</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

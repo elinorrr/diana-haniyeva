@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">DH<span>.</span></div>
+
+  <nav>
+    <a href="index.html">Hem</a>
+    <a href="projects.html">Projekt</a>
+    <a href="about.html">Om mig</a>
+    <a href="contact.html">Kontakt</a>
+  </nav>
+
+  <button id="themeToggle" aria-label="Toggle theme">
+  <span class="icon"></span>
+</button>
+<!-- HAMBURGER (VISAS BARA PÅ MOBIL VIA CSS) -->
+  <button class="burger" id="burger">☰</button>
+
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+
+  <!-- CLOSE BUTTON -->
+  <button class="close-menu" id="closeMenu">✕</button>
+
+  <a href="index.html">Hem</a>
+  <a href="projects.html">Projekt</a>
+  <a href="about.html">Om mig</a>
+  <a href="contact.html">Kontakt</a>
+
+</div>
+<section class="page">
+
+  <h1>Kontakt</h1>
+  <p>Har du ett projekt i åtanke eller vill du veta mer om hur jag jobbar? Tveka inte att höra av dig. 
+Jag ser fram emot att connecta!</p>
+
+  <!-- MOBIL -->
+  <div class="contact-item">
+    <div class="contact-text">
+      <h3>Mobil</h3>
+      <p>Ring mig eller skicka ett sms här</p>
+    </div>
+
+    <button class="cta-btn copy-btn" data-copy="+46000000000">
+      +46000000000
+    </button>
+  </div>
+
+  <!-- EMAIL -->
+  <div class="contact-item">
+    <div class="contact-text">
+      <h3>Email</h3>
+      <p>Skicka ett mail till mig direkt</p>
+    </div>
+
+    <button class="cta-btn copy-btn" data-copy="dinmail@mail.com">
+      dinmail@mail.com
+    </button>
+  </div>
+
+  <!-- FORMULÄR (SEPARAT SIDA) -->
+  <div class="contact-item">
+    <div class="contact-text">
+      <h3>Formulär</h3>
+      <p>Fyll i ett formulär så återkommer jag</p>
+    </div>
+
+    <a href="contact-form.html" class="cta-btn">
+      Öppna formulär
+    </a>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 Diana Haniyeva</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
