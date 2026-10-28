@@ -1,0 +1,162 @@
+```html
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projekt 5 - Hiruko</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+  <div class="logo">DH<span>.</span></div>
+
+  <nav>
+    <a href="index.html">Hem</a>
+    <a href="projects.html">Projekt</a>
+    <a href="about.html">Om mig</a>
+    <a href="contact.html">Kontakt</a>
+  </nav>
+
+  <button id="themeToggle" aria-label="Toggle theme">
+    <span class="icon"></span>
+  </button>
+
+  <!-- Burger menu -->
+  <button class="burger" id="burger" aria-label="Öppna meny">☰</button>
+</header>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close-menu" id="closeMenu" aria-label="Stäng meny">✕</button>
+
+  <a href="index.html">Hem</a>
+  <a href="projects.html">Projekt</a>
+  <a href="about.html">Om mig</a>
+  <a href="contact.html">Kontakt</a>
+</div>
+
+<!-- Project 5: Hiruko -->
+<section class="page">
+  <h1>Hiruko. Game Design</h1>
+
+  <!-- Project introduction -->
+  <div class="case-block">
+    <div class="case-text">
+      <h2>Beskrivning</h2>
+
+      <p>
+        Hiruko är ett 2D pixel-art dungeon crawler inspirerat av
+        japansk mytologi. Spelet följer Hiruko, en Fortune kami
+        som har förlorat sina gudomliga krafter och måste återfå
+        dem genom att utforska världen, besegra fiender och lösa
+        musikbaserade pussel.
+      </p>
+
+      <p>
+        Jag utvecklade spelet helt själv och ansvarade för hela
+        processen, från koncept, research och visuell design
+        till spelmekaniker, UI, leveldesign, implementation
+        i Godot och användartester. Eftersom det var mitt första
+        egna spelprojekt fokuserade jag på att skapa en mindre,
+        spelbar prototyp där centrala system kunde testas och
+        förbättras iterativt.
+      </p>
+
+      <p>
+        <strong>Min roll:</strong> Game Design, UX/UI, Visual Design,
+        Level Design, User Testing och Implementation.
+      </p>
+
+      <p>
+        <strong>Verktyg:</strong> Godot 4.7.2, GDScript och
+        AI-baserade verktyg.
+      </p>
+    </div>
+  </div>
+
+  <!-- Image 1: Combat -->
+  <div class="case-block">
+    <div class="case-text">
+      <h2>Combat och spelmekanik</h2>
+
+      <p>
+        En central del av designen var att koppla musik till
+        både combat och problemlösning. Spelarens olika inputs
+        spelar toner som används för abilities. Samma system
+        används även för att lösa musikpussel i spelvärlden.
+        På så sätt blir musiken en aktiv del av interaktionen
+        i stället för enbart ljuddesign.
+      </p>
+    </div>
+
+    <div class="case-media">
+      <img src="Pictures/hiruko-combat.png"
+           alt="Hiruko i strid mot en fiende">
+    </div>
+  </div>
+
+  <!-- Image 2: Music puzzle -->
+  <div class="case-block">
+    <div class="case-text">
+      <h2>Musikbaserade pussel</h2>
+
+      <p>
+        Musiksystemet används också för att skapa pussel
+        som spelaren behöver lösa för att ta sig vidare.
+        Det ger spelaren möjlighet att använda samma
+        mekanik på olika sätt och knyter samman spelets
+        strider, utforskning och problemlösning.
+      </p>
+    </div>
+
+    <div class="case-media">
+      <img src="Pictures/hiruko-puzzle.png"
+           alt="Ett musikbaserat pussel i Hiruko">
+    </div>
+  </div>
+
+  <!-- Image 3: UI, guide and hints -->
+  <div class="case-block">
+    <div class="case-text">
+      <h2>UX, UI och användartester</h2>
+
+      <p>
+        Genom användartester utvecklade jag bland annat
+        rörelsekontroller, dash, combat, progression,
+        feedback och bossens svårighetsgrad. Testerna visade
+        också att musikpusslen behövde tydligare vägledning
+        utan att själva lösningen blev enklare.
+      </p>
+
+      <p>
+        Därför implementerade jag mål, hints och visuell
+        feedback för att hjälpa spelaren att förstå vad
+        som förväntades och hur den kunde komma vidare,
+        samtidigt som utmaningen behölls.
+      </p>
+    </div>
+
+    <div class="case-media">
+      <img src="Pictures/hiruko-ui.png"
+           alt="Spelets UI med guide, mål och hints">
+    </div>
+  </div>
+
+  <p><a href="projects.html">← Tillbaka till projekt</a></p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Diana Haniyeva</p>
+</footer>
+
+</body>
+</html>
+```
