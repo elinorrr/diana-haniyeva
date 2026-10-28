@@ -1,19 +1,16 @@
-```html
 <!DOCTYPE html>
 <html lang="sv">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projekt | Diana Haniyeva</title>
+  <title>Projekt</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
 </head>
 
 <body>
-
-<!-- Header -->
+<!-- header with links to other pages and dark mode button -->
 <header>
   <div class="logo">DH<span>.</span></div>
 
@@ -25,73 +22,59 @@
   </nav>
 
   <button id="themeToggle" aria-label="Toggle theme">
-    <span class="icon"></span>
-  </button>
+  <span class="icon"></span>
+</button>
+<!-- Burger menu button for phone -->
+  <button class="burger" id="burger">☰</button>
 
-  <!-- Burger menu -->
-  <button class="burger" id="burger" aria-label="Öppna meny">☰</button>
 </header>
 
-<!-- Mobile menu -->
+<!-- In the burger menu -->
 <div class="mobile-menu" id="mobileMenu">
-  <button class="close-menu" id="closeMenu" aria-label="Stäng meny">✕</button>
+
+  <!-- Close button in burger menu -->
+  <button class="close-menu" id="closeMenu">✕</button>
 
   <a href="index.html">Hem</a>
   <a href="projects.html">Projekt</a>
   <a href="about.html">Om mig</a>
   <a href="contact.html">Kontakt</a>
-</div>
 
-<!-- Projects -->
+</div>
 <section class="page">
 
   <h1>Projekt</h1>
-  <p>Här är mina UX/UI-, spelifierings- och webbutvecklingsprojekt.</p>
+  <p>Här är mina UX/UI och webbutvecklingsprojekt.</p>
 
   <div class="project-grid">
 
-    <!-- Project 1: Duro -->
+    <!-- Project 1 Duro -->
     <a href="project-detail.html" class="project-card">
-      <img src="Pictures/Screenshot 2026-04-20 131721.png" alt="Duro-projektet">
-
+      <img src="Pictures/Screenshot 2026-04-20 131721.png" alt="Projekt 1">
       <div class="project-card-content">
         <h3>Duro. Tillgänglighet</h3>
-        <p>
-          Projektet fokuserade på att förbättra hemsidans tillgänglighet
-          med särskilt fokus på tydlighet, struktur och kontraster.
-          Genom analys och användartester identifierade jag och min grupp
-          problem i gränssnittet och tog fram lösningar i Figma.
-        </p>
+        <p>Projektet fokuserade på att förbättra den övergripande tillgängligheten på hemsidan, med särskilt fokus på tydlighet, struktur och kontraster. Genom analys och användartester identifierade jag och min grupp brister i gränssnittet och tog fram lösningar i form av wireframes och prototyper i Figma.</p>
       </div>
     </a>
 
-    <!-- Project 2: MIND -->
+    <!-- Project 2 mind -->
     <a href="project-2.html" class="project-card">
-      <img src="Pictures/Screenshot 2026-04-20 131816.png" alt="MIND-projektet">
-
+      <img src="Pictures/Screenshot 2026-04-20 131816.png" alt="Projekt 2">
       <div class="project-card-content">
-        <h3>MIND. Navigering och UI</h3>
-        <p>
-          Jag arbetade med att förbättra navigeringen och förenkla
-          gränssnittet på MIND.se, så att användare lättare skulle
-          hitta relevant information och få en tydligare upplevelse.
-        </p>
+        <h3>MIND. Navigering och UI </h3>
+        <p>I projektet för MIND.se fokuserade jag på att förbättra hemsidans övergripande navigering med fokus på UI för att göra det enklare för användare att hitta rätt information. Jag arbetade även med att förenkla och minimalisera interfacet för att skapa en mer tydlig och intuitiv användarupplevelse.</p>
       </div>
     </a>
 
-    <!-- Project 3: Portfolio -->
+    <!-- Project 3 portfolio-->
     <a href="project-3.html" class="project-card">
-      <img src="Pictures/Screenshot 2026-04-20 133045.png" alt="Portfolio och webbutveckling">
-
+      <img src="Pictures/Screenshot 2026-04-20 133045.png" alt="Projekt 3">
       <div class="project-card-content">
         <h3>Portfolio. Webbutveckling</h3>
-        <p>
-          Design och utveckling av en personlig portfolio med HTML,
-          CSS och JavaScript.
-        </p>
+        <p>Figma prototyp och layout. HTML, CSS och JavaScript.</p>
       </div>
     </a>
-
+    
     <!-- Project 4: Nexiva -->
     <a href="project-4.html" class="project-card">
       <img src="Pictures/nexiva-after.png" alt="Nexivas omdesignade webbplats">
@@ -153,12 +136,11 @@
   </div>
 
 </section>
-
-<!-- Footer -->
+<!-- Footer-->
 <footer>
   <p>© 2026 Diana Haniyeva</p>
 </footer>
-
+<!-- Links dark mode and animation in java script-->
+<script src="script.js"></script>
 </body>
 </html>
-```
